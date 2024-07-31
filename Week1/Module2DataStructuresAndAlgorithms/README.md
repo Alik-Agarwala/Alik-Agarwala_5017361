@@ -158,3 +158,20 @@ Linked lists offer dynamic sizing, efficient insertions/deletions, better memory
 - **Linear Search:** For small or unsorted datasets.
 - **Binary Search:** For large, sorted datasets.
 
+## Exercise 7: Financial Forecasting
+
+### Understand Recursive Algorithms
+
+**Explain the concept of recursion and how it can simplify certain problems.**
+
+Recursion involves a function calling itself, breaking down complex problems into simpler sub-problems, making code more intuitive for certain tasks.
+
+### Analysis
+
+**Discuss the time complexity of your recursive algorithm.**
+
+The time complexity is O(n), where n is the number of years, due to one recursive call per year.
+
+**Explain how to optimize the recursive solution to avoid excessive computation.**
+
+Optimize with memoization or dynamic programming to store results and avoid redundant calculations.
