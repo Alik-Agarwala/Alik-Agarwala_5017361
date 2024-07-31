@@ -27,7 +27,7 @@ Suitable data structures include HashMap, ArrayList, LinkedList, and TreeMap.
   - Update: O(1) average
   - Delete: O(1) average
 
-**Q2: Discuss how you can optimize these operations.**
+**Discuss how you can optimize these operations.**
 
 Use a good hash function and maintain an appropriate load factor to minimize collisions and avoid frequent resizing.
 
@@ -63,3 +63,26 @@ Big O notation describes the worst-case time or space complexity, helping compar
 
 Binary search is more suitable for large, frequently queried datasets due to its O(log n) time complexity.
 
+## Exercise 3: Sorting Customer Orders
+
+### Understand Sorting Algorithms
+
+**Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort).**
+
+- **Bubble Sort:** Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+- **Insertion Sort:** Insertion sort works by iteratively inserting each element of an unsorted list into its correct position in a sorted portion of the list. It is a stable sorting algorithm, meaning that elements with equal values maintain their relative order in the sorted output.
+
+- **Quick Sort:** QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
+
+- **Merge Sort:** Merge sort is a sorting algorithm that follows the divide-and-conquer approach. It works by recursively dividing the input array into smaller subarrays and sorting those subarrays then merging them back together to obtain the sorted array.
+
+### Analysis
+
+**Compare the performance (time complexity) of Bubble Sort and Quick Sort.**
+
+Quick Sort generally performs better than Bubble Sort due to its O(n log n) average-case time complexity.
+
+**Discuss why Quick Sort is generally preferred over Bubble Sort.**
+
+Quick Sort is preferred because it is faster and more efficient for large datasets.
