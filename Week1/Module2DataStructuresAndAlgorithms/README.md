@@ -136,3 +136,25 @@ Arrays are limited by fixed size and costly resizing. They are ideal for known a
 **Discuss the advantages of linked lists over arrays for dynamic data.**
 
 Linked lists offer dynamic sizing, efficient insertions/deletions, better memory utilization, and flexibility for dynamic data.
+
+## Exercise 6: Library Management System
+
+### Understand Search Algorithms
+
+**Explain linear search and binary search algorithms.**
+
+- **Linear Search:** O(n) time complexity, sequential element checks.
+- **Binary Search:** O(log n) time complexity, halves the search space in a sorted list.
+
+### Analysis
+
+**Compare the time complexity of linear and binary search.**
+
+- **Linear Search:** O(n)
+- **Binary Search:** O(log n)
+
+**Discuss when to use each algorithm based on the data set size and order.**
+
+- **Linear Search:** For small or unsorted datasets.
+- **Binary Search:** For large, sorted datasets.
+
