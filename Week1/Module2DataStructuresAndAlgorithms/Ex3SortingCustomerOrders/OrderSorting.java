@@ -18,7 +18,8 @@ public class OrderSorting {
                 }
             }
             // If no two elements were swapped in the inner loop, then break
-            if (!swapped) break;
+            if (!swapped)
+                break;
         }
     }
 
@@ -59,11 +60,11 @@ public class OrderSorting {
     public static void main(String[] args) {
         // Sample orders
         Order[] orders = {
-            new Order(1, "Alice", 250.50),
-            new Order(2, "Bob", 100.00),
-            new Order(3, "Charlie", 150.75),
-            new Order(4, "David", 300.00),
-            new Order(5, "Eve", 50.25)
+                new Order(1, "Alice", 250.50),
+                new Order(2, "Bob", 100.00),
+                new Order(3, "Charlie", 150.75),
+                new Order(4, "David", 300.00),
+                new Order(5, "Eve", 50.25)
         };
 
         // Bubble Sort
@@ -75,11 +76,11 @@ public class OrderSorting {
 
         // Resetting orders for Quick Sort (unsorted array)
         orders = new Order[] {
-            new Order(1, "Alice", 250.50),
-            new Order(2, "Bob", 100.00),
-            new Order(3, "Charlie", 150.75),
-            new Order(4, "David", 300.00),
-            new Order(5, "Eve", 50.25)
+                new Order(1, "Alice", 250.50),
+                new Order(2, "Bob", 100.00),
+                new Order(3, "Charlie", 150.75),
+                new Order(4, "David", 300.00),
+                new Order(5, "Eve", 50.25)
         };
 
         // Quick Sort

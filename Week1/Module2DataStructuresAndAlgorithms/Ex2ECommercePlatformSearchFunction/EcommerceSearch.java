@@ -38,11 +38,11 @@ public class EcommerceSearch {
     public static void main(String[] args) {
         // Sample products
         Product[] products = {
-            new Product(1, "Laptop", "Electronics"),
-            new Product(2, "Smartphone", "Electronics"),
-            new Product(3, "Headphones", "Electronics"),
-            new Product(4, "Shoes", "Fashion"),
-            new Product(5, "Backpack", "Fashion")
+                new Product(1, "Laptop", "Electronics"),
+                new Product(2, "Smartphone", "Electronics"),
+                new Product(3, "Headphones", "Electronics"),
+                new Product(4, "Shoes", "Fashion"),
+                new Product(5, "Backpack", "Fashion")
         };
 
         // Linear search
