@@ -107,3 +107,32 @@ Arrays are represented as contiguous memory blocks, allowing O(1) access to elem
 **Discuss the limitations of arrays and when to use them.**
 
 Arrays are limited by fixed size and costly resizing. They are ideal for known and constant element numbers, offering simplicity but can waste memory.
+
+## Exercise 5: Task Management System
+
+### Understand Linked Lists
+
+**Explain the different types of linked lists (Singly Linked List, Doubly Linked List).**
+
+- **Singly Linked List:** One-way traversal, simple structure.
+- **Doubly Linked List:** Bidirectional traversal, more complex but flexible.
+
+### Analysis
+
+**Analyze the time complexity of each operation.**
+
+- **Singly Linked List:** 
+  - Add (to head): O(1)
+  - Add (to tail): O(n)
+  - Search: O(n)
+  - Delete: O(n)
+
+- **Doubly Linked List:** 
+  - Add (to head): O(1)
+  - Add (to tail): O(1)
+  - Search: O(n)
+  - Delete: O(n)
+
+**Discuss the advantages of linked lists over arrays for dynamic data.**
+
+Linked lists offer dynamic sizing, efficient insertions/deletions, better memory utilization, and flexibility for dynamic data.
