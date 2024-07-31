@@ -86,3 +86,24 @@ Quick Sort generally performs better than Bubble Sort due to its O(n log n) aver
 **Discuss why Quick Sort is generally preferred over Bubble Sort.**
 
 Quick Sort is preferred because it is faster and more efficient for large datasets.
+
+## Exercise 4: Employee Management System
+
+### Understand Array Representation
+
+**Explain how arrays are represented in memory and their advantages.**
+
+Arrays are represented as contiguous memory blocks, allowing O(1) access to elements. They offer efficient memory use, fast access, and simplicity.
+
+### Analysis
+
+**Analyze the time complexity of each operation (add, search, traverse, delete).**
+
+- **Add:** O(1) if space is available, O(n) for resizing.
+- **Search:** O(n)
+- **Traverse:** O(n)
+- **Delete:** O(n)
+
+**Discuss the limitations of arrays and when to use them.**
+
+Arrays are limited by fixed size and costly resizing. They are ideal for known and constant element numbers, offering simplicity but can waste memory.
